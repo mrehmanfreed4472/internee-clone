@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>internee.pk</title>
+
+    <!-- Fonts and Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="collaborators.html">Company Collaborators</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="jobs.html" class="btn">Job Portal</a>
+        <a href="login.html" class="btn">Internee Login</a>
+    </nav>
+    
+    <!-- Header Section -->
+    <section class="header">
+        <a href="index.html" class="logo"><img src="images/logo.png" class="logo_img" alt="internee.pk"></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html">Company Collaborators</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="index.html" class="btn">Job Portal</a>
+            <a href="index.html" class="btn">Internee Login</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>  
+    </section>
+
+    <!-- Home Section -->
+    <section class="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background:url(images/home-slider-1.png) no-repeat">
+                    <div class="content">
+                        <span>Looking for a dream internship?</span>
+                        <h3>Get a competitive job</h3>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background:url(images/home-slider-2.png) no-repeat">
+                    <div class="content">
+                        <span>Looking for a dream internship?</span>
+                        <h3>On your desired domain</h3>
+                        <a href="#" class="btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- WebSocket Test Section -->
+    <section class="websocket-test">
+        <h1>WebSocket Test</h1>
+        <button id="connectButton">Connect</button>
+        <input type="text" id="messageInput" placeholder="Enter your message" disabled>
+        <button id="sendButton" disabled>Send Message</button>
+        <div id="messages"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="home-about">
+        <div class="image">
+            <img src="images/aboutus.png" alt="About Us">
+        </div>
+        <div class="content">
+            <h3>Welcome to Internee.pk</h3>
+            <p>Our internship program is designed to give students the opportunity to work on meaningful projects and tasks, while also receiving mentorship and guidance from experienced professionals in the field. Our goal is to help interns develop the skills and knowledge they need to succeed in their careers, while also building a strong network of talented individuals who may become valuable members of our team in the future. If you're looking for a challenging and rewarding internship experience, we invite you to explore our program and <a href="index.html">Apply Today</a>.</p>
+            <a href="index.html" class="btn">Get to know us</a>
+            <a href="index.html" class="btn">Explore internships</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h1 class="heading-title">Browse By Categories</h1>
+        <div class="box-container">
+            <div class="box">
+                <i class='cat_icon bx bx-window-alt'></i>
+                <a href="index.html"><h3>Web Designing</h3></a>
+            </div>
+            <div class="box">
+                <i class='cat_icon bx bx-pen'></i>
+                <a href="index.html"><h3>Graphic Designing and 3D Modeling</h3></a>
+            </div>
+            <div class="box">
+                <i class='cat_icon bx bx-globe'></i>
+                <a href="index.html"><h3>Web Development</h3></a>
+            </div>
+            <div class="box">
+                <i class='cat_icon bx bx-mobile-alt'></i>
+                <a href="index.html"><h3>Mobile Application Development</h3></a>
+            </div>
+            <div class="box">
+                <i class='cat_icon bx bx-robot'></i>
+                <a href="index.html"><h3>CRM's Chatbot Development</h3></a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Internship Packages Section -->
+    <section class="home-packages">
+        <h1 class="heading-title">Recent Internships</h1>
+        <p>Internee.pk offers a comprehensive range of virtual internship opportunities exclusively in the IT field, designed to turbocharge the IT sector in Pakistan.</p>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/analysis.jpg" alt="Data Analyst">
+                </div>
+                <div class="content">
+                    <h3>Data Analyst</h3>
+                    <p><i class='bx bx-location-plus custom_icon'></i>Remote</p>
+                    <p><i class='bx bx-time-five custom_icon'></i>1 month</p>
+                    <a href="index.html" class="btn">Apply Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/FrontEnd.jpg" alt="Frontend Web Development">
+                </div>
+                <div class="content">
+                    <h3>Frontend Web Development</h3>
+                    <p><i class='bx bx-location-plus custom_icon'></i>Remote</p>
+                    <p><i class='bx bx-time-five custom_icon'></i>1 month</p>
+                    <a href="index.html" class="btn">Apply Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/BackendDevelopment.jpg" alt="Backend Web Development">
+                </div>
+                <div class="content">
+                    <h3>Backend Web Development</h3>
+                    <p><i class='bx bx-location-plus custom_icon'></i>Remote</p>
+                    <p><i class='bx bx-time-five custom_icon'></i>1 month</p>
+                    <a href="index.html" class="btn">Apply Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/hack (1).jpg" alt="Cyber Security">
+                </div>
+                <div class="content">
+                    <h3>Cyber Security</h3>
+                    <p><i class='bx bx-location-plus custom_icon'></i>Remote</p>
+                    <p><i class='bx bx-time-five custom_icon'></i>1 month</p>
+                    <a href="index.html" class="btn">Apply Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/cloud.webp" alt="Cloud Computing">
+                </div>
+                <div class="content">
+                    <h3>Cloud Computing</h3>
+                    <p><i class='bx bx-location-plus custom_icon'></i>Remote</p>
+                    <p><i class='bx bx-time-five custom_icon'></i>1 month</p>
+                    <a href="index.html" class="btn">Apply Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Mobile App Developer.jpg" alt="Mobile App Development">
+                </div>
+                <div class="content">
+                    <h3>Mobile App Development</h3>
+                    <p><i class='bx bx-location-plus custom_icon'></i>Remote</p>
+                    <p><i class='bx bx-time-five custom_icon'></i>1 month</p>
+                    <a href="index.html" class="btn">Apply Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/chatbotDevelopment.jpeg" alt="Chatbot Development">
+                </div>
+                <div class="content">
+                    <h3>Chatbot Development</h3>
+                    <p><i class='bx bx-location-plus custom_icon'></i>Remote</p>
+                    <p><i class='bx bx-time-five custom_icon'></i>1 month</p>
+                    <a href="index.html" class="btn">Apply Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/Machine Learning.jpg" alt="Machine Learning">
+                </div>
+                <div class="content">
+                    <h3>Machine Learning</h3>
+                    <p><i class='bx bx-location-plus custom_icon'></i>Remote</p>
+                    <p><i class='bx bx-time-five custom_icon'></i>1 month</p>
+                    <a href="index.html" class="btn">Apply Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="load-more"><a href="index.html" class="btn">Load More</a></div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Our Branches</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Lahore</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Karachi</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Islamabad</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Peshawar</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Multan</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Company Collaborators</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Contact Us</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Job Portal</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Internee Login</a>
+            </div>
+            <div class="box">
+                <h3>Contact Us</h3>
+                <a href="#"><i class="fas fa-phone"></i> +92-123-4567890</a>
+                <a href="#"><i class="fas fa-envelope"></i> info@internee.pk</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> 123 Street, City, Pakistan</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+        </div>
+        <div class="credit">
+            <p>Developed by <span>Muhammad Rehman Freed</span> | <footer>&copy; 2024 HTML.MRF</footer></p>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+    <!-- WebSocket JS -->
+    <script>
+        let socket;
+
+        document.getElementById('connectButton').addEventListener('click', () => {
+            socket = new WebSocket('ws://localhost:8080');
+
+            socket.onopen = () => {
+                document.getElementById('messageInput').disabled = false;
+                document.getElementById('sendButton').disabled = false;
+                console.log('Connected to WebSocket server');
+            };
+
+            socket.onmessage = event => {
+                const messageDiv = document.createElement('div');
+                messageDiv.textContent = `Received: ${event.data}`;
+                document.getElementById('messages').appendChild(messageDiv);
+            };
+
+            socket.onclose = () => {
+                document.getElementById('messageInput').disabled = true;
+                document.getElementById('sendButton').disabled = true;
+                console.log('Disconnected from WebSocket server');
+            };
+
+            socket.onerror = error => {
+                console.error('WebSocket error:', error);
+            };
+        });
+
+        document.getElementById('sendButton').addEventListener('click', () => {
+            if (socket && socket.readyState === WebSocket.OPEN) {
+                const message = document.getElementById('messageInput').value;
+                socket.send(message);
+                console.log('Sent:', message);
+            }
+        });
+    </script>
+</body>
+</html>
